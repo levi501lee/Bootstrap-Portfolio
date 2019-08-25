@@ -127,3 +127,7 @@ a {
     padding: 1px 0px 1px 0px;
     top: 125px;
 }
+
+.my-name {
+    text-align: left;
+}
