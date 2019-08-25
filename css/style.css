@@ -1,21 +1,21 @@
-nav {
-    float: right;
-}
+/* nav {
+    left: 80px
+} */
 
 body{
-    font-size: 20px;
+    /* font-size: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #ffffff;
     border-color: #dddddd;
     line-height: 1.5;
     margin: 0;
-    padding: 0 px;
+    padding: 0 px; */
   background-image: url('../images/vector-grey-gradient-abstract-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
 }
-h1 {
+/* h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-decoration: none;
 }
@@ -27,7 +27,7 @@ h2 {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #25852a;
     border-color: #cccccc;
     border: 0px 0px 2px 0px;
     border-style: solid;
@@ -62,13 +62,17 @@ li{
 img {
     float: left;
     margin-right: 25px;
+} */
+
+header {
+    border-style: solid;
+    border-color: #141518;
 }
 
 footer {
     border: 6px 0px 0px 0px;
     border-style: solid;
-    background-color: #666666;
-    border-color: #4aaaa5;
+    border-color: #141518;
     text-align: center;
     text-align: bottom;
     color: #cccccc; 
@@ -80,7 +84,11 @@ footer {
     bottom: 0px;
 
 }
-
+img {
+    display: inline-block;
+    margin: 25px 10px;
+  }
+/* 
 .title {
     background-color:#4aaaa5;
     color: #cccccc;
@@ -92,8 +100,15 @@ footer {
     margin-bottom: 2px;
 }
 .headercontents {
-    width: 960px;
+    width: 160px;
     margin:auto;
+    border-style: solid;
+    background-color: #094707;
+    border-color: #141518;
+    font-size: 24px;
+    color: #cccccc;
+
+
 }
 
 .container {
@@ -126,8 +141,4 @@ a {
     position: relative;
     padding: 1px 0px 1px 0px;
     top: 125px;
-}
-
-.my-name {
-    text-align: left;
-}
+}  */
