@@ -64,6 +64,14 @@ img {
     margin-right: 25px;
 } */
 
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
 header {
     border-style: solid;
     border-color: #141518;
@@ -88,6 +96,53 @@ img {
     display: inline-block;
     margin: 25px 10px;
   }
+
+/* portfolio page */
+
+.work {
+    display: block;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 20px 0 25px;
+    /* overflow: auto; */
+    padding: 20px   
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 87%;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    font-weight: 300;
+    line-height: 15px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  
 /* 
 .title {
     background-color:#4aaaa5;
